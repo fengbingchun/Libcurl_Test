@@ -1,0 +1,2331 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:01。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\3.3.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\3.3.0\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.77
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/3.3.0/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_012e3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:03。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_012e3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_012e3.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_012e3.dir\Debug\cmTC_012e3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_012e3.dir\Debug\cmTC_012e3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_012e3.dir\Debug\\" /Fd"cmTC_012e3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_012e3.dir\Debug\\" /Fd"cmTC_012e3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_012e3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_012e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_012e3.lib" /MACHINE:X64  /machine:x64 /debug cmTC_012e3.dir\Debug\testCCompiler.obj
+  cmTC_012e3.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_012e3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_012e3.dir\Debug\cmTC_012e3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_012e3.dir\Debug\cmTC_012e3.tlog\cmTC_012e3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_012e3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.43
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_92482.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:05。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_92482.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_92482.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_92482.dir\Debug\cmTC_92482.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_92482.dir\Debug\cmTC_92482.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_92482.dir\Debug\\" /Fd"cmTC_92482.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_92482.dir\Debug\\" /Fd"cmTC_92482.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_92482.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_92482.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_92482.lib" /MACHINE:X64  /machine:x64 /debug cmTC_92482.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_92482.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_92482.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_92482.dir\Debug\cmTC_92482.tlog\unsuccessfulbuild”。
+  正在对“cmTC_92482.dir\Debug\cmTC_92482.tlog\cmTC_92482.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_92482.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.17
+
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7e77a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:10。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7e77a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7e77a.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7e77a.dir\Debug\cmTC_7e77a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7e77a.dir\Debug\cmTC_7e77a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e77a.dir\Debug\\" /Fd"cmTC_7e77a.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7e77a.dir\Debug\\" /Fd"cmTC_7e77a.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_7e77a.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_7e77a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_7e77a.lib" /MACHINE:X64  /machine:x64 /debug cmTC_7e77a.dir\Debug\CheckFunctionExists.obj
+  cmTC_7e77a.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_7e77a.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7e77a.dir\Debug\cmTC_7e77a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7e77a.dir\Debug\cmTC_7e77a.tlog\cmTC_7e77a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7e77a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.20
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_51c16.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:12。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_51c16.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_51c16.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_51c16.dir\Debug\cmTC_51c16.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_51c16.dir\Debug\cmTC_51c16.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_51c16.dir\Debug\\" /Fd"cmTC_51c16.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_51c16.dir\Debug\\" /Fd"cmTC_51c16.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_51c16.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib winmm.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_51c16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_51c16.lib" /MACHINE:X64  /machine:x64 /debug cmTC_51c16.dir\Debug\CheckFunctionExists.obj
+  cmTC_51c16.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_51c16.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_51c16.dir\Debug\cmTC_51c16.tlog\unsuccessfulbuild”。
+  正在对“cmTC_51c16.dir\Debug\cmTC_51c16.tlog\cmTC_51c16.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_51c16.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+
+Determining if the function cldap_open exists in the wldap32 passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_801c4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:15。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_801c4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_801c4.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_801c4.dir\Debug\cmTC_801c4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_801c4.dir\Debug\cmTC_801c4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_801c4.dir\Debug\\" /Fd"cmTC_801c4.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_801c4.dir\Debug\\" /Fd"cmTC_801c4.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_801c4.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib wldap32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_801c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_801c4.lib" /MACHINE:X64  /machine:x64 /debug cmTC_801c4.dir\Debug\CheckFunctionExists.obj
+  cmTC_801c4.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_801c4.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_801c4.dir\Debug\cmTC_801c4.tlog\unsuccessfulbuild”。
+  正在对“cmTC_801c4.dir\Debug\cmTC_801c4.tlog\cmTC_801c4.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_801c4.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_695fc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:26。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_695fc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_695fc.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_695fc.dir\Debug\cmTC_695fc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_695fc.dir\Debug\cmTC_695fc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_695fc.dir\Debug\\" /Fd"cmTC_695fc.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_695fc.dir\Debug\\" /Fd"cmTC_695fc.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_695fc.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_695fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_695fc.lib" /MACHINE:X64  /machine:x64 /debug cmTC_695fc.dir\Debug\CheckIncludeFiles.obj
+  cmTC_695fc.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_695fc.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_695fc.dir\Debug\cmTC_695fc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_695fc.dir\Debug\cmTC_695fc.tlog\cmTC_695fc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_695fc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.80
+
+
+Determining if files windows.h;winsock.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a227c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:28。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_a227c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a227c.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a227c.dir\Debug\cmTC_a227c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a227c.dir\Debug\cmTC_a227c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a227c.dir\Debug\\" /Fd"cmTC_a227c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a227c.dir\Debug\\" /Fd"cmTC_a227c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  CheckIncludeFiles.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_a227c.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_a227c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_a227c.lib" /MACHINE:X64  /machine:x64 /debug cmTC_a227c.dir\Debug\CheckIncludeFiles.obj
+  cmTC_a227c.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_a227c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a227c.dir\Debug\cmTC_a227c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a227c.dir\Debug\cmTC_a227c.tlog\cmTC_a227c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_a227c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.81
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_07709.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:31。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_07709.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_07709.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_07709.dir\Debug\cmTC_07709.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_07709.dir\Debug\cmTC_07709.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_07709.dir\Debug\\" /Fd"cmTC_07709.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_07709.dir\Debug\\" /Fd"cmTC_07709.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_07709.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_07709.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_07709.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_07709.lib" /MACHINE:X64  /machine:x64 /debug cmTC_07709.dir\Debug\CheckIncludeFiles.obj
+  cmTC_07709.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_07709.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_07709.dir\Debug\cmTC_07709.tlog\unsuccessfulbuild”。
+  正在对“cmTC_07709.dir\Debug\cmTC_07709.tlog\cmTC_07709.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_07709.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_07709.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_07709.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.86
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_1d976.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:33。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1d976.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1d976.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1d976.dir\Debug\cmTC_1d976.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1d976.dir\Debug\cmTC_1d976.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1d976.dir\Debug\\" /Fd"cmTC_1d976.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1d976.dir\Debug\\" /Fd"cmTC_1d976.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1d976.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_1d976.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_1d976.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_1d976.lib" /MACHINE:X64  /machine:x64 /debug cmTC_1d976.dir\Debug\CheckIncludeFiles.obj
+  cmTC_1d976.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_1d976.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1d976.dir\Debug\cmTC_1d976.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1d976.dir\Debug\cmTC_1d976.tlog\cmTC_1d976.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1d976.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1d976.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1d976.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.96
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5213a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:36。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_5213a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5213a.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5213a.dir\Debug\cmTC_5213a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5213a.dir\Debug\cmTC_5213a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5213a.dir\Debug\\" /Fd"cmTC_5213a.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5213a.dir\Debug\\" /Fd"cmTC_5213a.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  CheckIncludeFiles.c
+  
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_5213a.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_5213a.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_5213a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_5213a.lib" /MACHINE:X64  /machine:x64 /debug cmTC_5213a.dir\Debug\CheckIncludeFiles.obj
+  cmTC_5213a.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_5213a.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5213a.dir\Debug\cmTC_5213a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5213a.dir\Debug\cmTC_5213a.tlog\cmTC_5213a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_5213a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_5213a.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_5213a.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.84
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_6a076.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:51。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_6a076.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6a076.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6a076.dir\Debug\cmTC_6a076.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6a076.dir\Debug\cmTC_6a076.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6a076.dir\Debug\\" /Fd"cmTC_6a076.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_6a076.dir\Debug\\" /Fd"cmTC_6a076.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_6a076.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_6a076.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_6a076.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_6a076.lib" /MACHINE:X64  /machine:x64 /debug cmTC_6a076.dir\Debug\CheckIncludeFiles.obj
+  cmTC_6a076.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_6a076.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6a076.dir\Debug\cmTC_6a076.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6a076.dir\Debug\cmTC_6a076.tlog\cmTC_6a076.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_6a076.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_6a076.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_6a076.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.96
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c5e74.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:47:59。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c5e74.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c5e74.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c5e74.dir\Debug\cmTC_c5e74.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c5e74.dir\Debug\cmTC_c5e74.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c5e74.dir\Debug\\" /Fd"cmTC_c5e74.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c5e74.dir\Debug\\" /Fd"cmTC_c5e74.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c5e74.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_c5e74.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_c5e74.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_c5e74.lib" /MACHINE:X64  /machine:x64 /debug cmTC_c5e74.dir\Debug\CheckIncludeFiles.obj
+  cmTC_c5e74.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_c5e74.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c5e74.dir\Debug\cmTC_c5e74.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c5e74.dir\Debug\cmTC_c5e74.tlog\cmTC_c5e74.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c5e74.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c5e74.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c5e74.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.87
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_df08c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:10。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_df08c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_df08c.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_df08c.dir\Debug\cmTC_df08c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_df08c.dir\Debug\cmTC_df08c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_df08c.dir\Debug\\" /Fd"cmTC_df08c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_df08c.dir\Debug\\" /Fd"cmTC_df08c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_df08c.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_df08c.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_df08c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_df08c.lib" /MACHINE:X64  /machine:x64 /debug cmTC_df08c.dir\Debug\CheckIncludeFiles.obj
+  cmTC_df08c.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_df08c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_df08c.dir\Debug\cmTC_df08c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_df08c.dir\Debug\cmTC_df08c.tlog\cmTC_df08c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_df08c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_df08c.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_df08c.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.92
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_94d53.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:13。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_94d53.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_94d53.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_94d53.dir\Debug\cmTC_94d53.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_94d53.dir\Debug\cmTC_94d53.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_94d53.dir\Debug\\" /Fd"cmTC_94d53.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_94d53.dir\Debug\\" /Fd"cmTC_94d53.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_94d53.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_94d53.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_94d53.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_94d53.lib" /MACHINE:X64  /machine:x64 /debug cmTC_94d53.dir\Debug\CheckIncludeFiles.obj
+  cmTC_94d53.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_94d53.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_94d53.dir\Debug\cmTC_94d53.tlog\unsuccessfulbuild”。
+  正在对“cmTC_94d53.dir\Debug\cmTC_94d53.tlog\cmTC_94d53.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_94d53.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_94d53.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_94d53.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.87
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_dab4d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:26。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_dab4d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_dab4d.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_dab4d.dir\Debug\cmTC_dab4d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_dab4d.dir\Debug\cmTC_dab4d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dab4d.dir\Debug\\" /Fd"cmTC_dab4d.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dab4d.dir\Debug\\" /Fd"cmTC_dab4d.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_dab4d.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_dab4d.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_dab4d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_dab4d.lib" /MACHINE:X64  /machine:x64 /debug cmTC_dab4d.dir\Debug\CheckIncludeFiles.obj
+  cmTC_dab4d.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_dab4d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_dab4d.dir\Debug\cmTC_dab4d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_dab4d.dir\Debug\cmTC_dab4d.tlog\cmTC_dab4d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_dab4d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_dab4d.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_dab4d.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.94
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;limits.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_107b5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:33。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_107b5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_107b5.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_107b5.dir\Debug\cmTC_107b5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_107b5.dir\Debug\cmTC_107b5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_107b5.dir\Debug\\" /Fd"cmTC_107b5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_107b5.dir\Debug\\" /Fd"cmTC_107b5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+  
+  CheckIncludeFiles.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_107b5.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_107b5.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_107b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_107b5.lib" /MACHINE:X64  /machine:x64 /debug cmTC_107b5.dir\Debug\CheckIncludeFiles.obj
+  cmTC_107b5.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_107b5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_107b5.dir\Debug\cmTC_107b5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_107b5.dir\Debug\cmTC_107b5.tlog\cmTC_107b5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_107b5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_107b5.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_107b5.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.93
+
+
+Determining size of size_t passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3e0ee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:39。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_3e0ee.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3e0ee.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3e0ee.dir\Debug\cmTC_3e0ee.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3e0ee.dir\Debug\cmTC_3e0ee.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3e0ee.dir\Debug\\" /Fd"cmTC_3e0ee.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3e0ee.dir\Debug\\" /Fd"cmTC_3e0ee.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
+  
+  SIZEOF_SIZE_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_3e0ee.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_3e0ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_3e0ee.lib" /MACHINE:X64  /machine:x64 /debug cmTC_3e0ee.dir\Debug\SIZEOF_SIZE_T.obj
+  cmTC_3e0ee.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_3e0ee.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3e0ee.dir\Debug\cmTC_3e0ee.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3e0ee.dir\Debug\cmTC_3e0ee.tlog\cmTC_3e0ee.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_3e0ee.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.22
+
+
+Determining size of long long passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_64474.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:43。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_64474.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_64474.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_64474.dir\Debug\cmTC_64474.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_64474.dir\Debug\cmTC_64474.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64474.dir\Debug\\" /Fd"cmTC_64474.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64474.dir\Debug\\" /Fd"cmTC_64474.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c
+  
+  SIZEOF_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_64474.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_64474.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_64474.lib" /MACHINE:X64  /machine:x64 /debug cmTC_64474.dir\Debug\SIZEOF_LONG_LONG.obj
+  cmTC_64474.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_64474.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_64474.dir\Debug\cmTC_64474.tlog\unsuccessfulbuild”。
+  正在对“cmTC_64474.dir\Debug\cmTC_64474.tlog\cmTC_64474.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_64474.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.26
+
+
+Determining size of long passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ba405.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:45。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_ba405.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ba405.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ba405.dir\Debug\cmTC_ba405.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ba405.dir\Debug\cmTC_ba405.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ba405.dir\Debug\\" /Fd"cmTC_ba405.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ba405.dir\Debug\\" /Fd"cmTC_ba405.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
+  
+  SIZEOF_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_ba405.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_ba405.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_ba405.lib" /MACHINE:X64  /machine:x64 /debug cmTC_ba405.dir\Debug\SIZEOF_LONG.obj
+  cmTC_ba405.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_ba405.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ba405.dir\Debug\cmTC_ba405.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ba405.dir\Debug\cmTC_ba405.tlog\cmTC_ba405.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_ba405.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.19
+
+
+Determining size of short passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_27155.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:46。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_27155.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_27155.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_27155.dir\Debug\cmTC_27155.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_27155.dir\Debug\cmTC_27155.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_27155.dir\Debug\\" /Fd"cmTC_27155.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_27155.dir\Debug\\" /Fd"cmTC_27155.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
+  
+  SIZEOF_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_27155.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_27155.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_27155.lib" /MACHINE:X64  /machine:x64 /debug cmTC_27155.dir\Debug\SIZEOF_SHORT.obj
+  cmTC_27155.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_27155.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_27155.dir\Debug\cmTC_27155.tlog\unsuccessfulbuild”。
+  正在对“cmTC_27155.dir\Debug\cmTC_27155.tlog\cmTC_27155.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_27155.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.19
+
+
+Determining size of int passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e18f3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:48。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_e18f3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e18f3.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e18f3.dir\Debug\cmTC_e18f3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e18f3.dir\Debug\cmTC_e18f3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e18f3.dir\Debug\\" /Fd"cmTC_e18f3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e18f3.dir\Debug\\" /Fd"cmTC_e18f3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
+  
+  SIZEOF_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_e18f3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_e18f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_e18f3.lib" /MACHINE:X64  /machine:x64 /debug cmTC_e18f3.dir\Debug\SIZEOF_INT.obj
+  cmTC_e18f3.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_e18f3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e18f3.dir\Debug\cmTC_e18f3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e18f3.dir\Debug\cmTC_e18f3.tlog\cmTC_e18f3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_e18f3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8b116.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:50。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_8b116.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8b116.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8b116.dir\Debug\cmTC_8b116.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8b116.dir\Debug\cmTC_8b116.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8b116.dir\Debug\\" /Fd"cmTC_8b116.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8b116.dir\Debug\\" /Fd"cmTC_8b116.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c
+  
+  SIZEOF___INT64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_8b116.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_8b116.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_8b116.lib" /MACHINE:X64  /machine:x64 /debug cmTC_8b116.dir\Debug\SIZEOF___INT64.obj
+  cmTC_8b116.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_8b116.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8b116.dir\Debug\cmTC_8b116.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8b116.dir\Debug\cmTC_8b116.tlog\cmTC_8b116.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_8b116.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.19
+
+
+Determining size of time_t passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_41306.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:48:52。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_41306.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_41306.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_41306.dir\Debug\cmTC_41306.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_41306.dir\Debug\cmTC_41306.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_41306.dir\Debug\\" /Fd"cmTC_41306.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_41306.dir\Debug\\" /Fd"cmTC_41306.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c
+  
+  SIZEOF_TIME_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_41306.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_41306.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_41306.lib" /MACHINE:X64  /machine:x64 /debug cmTC_41306.dir\Debug\SIZEOF_TIME_T.obj
+  cmTC_41306.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_41306.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_41306.dir\Debug\cmTC_41306.tlog\unsuccessfulbuild”。
+  正在对“cmTC_41306.dir\Debug\cmTC_41306.tlog\cmTC_41306.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_41306.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.31
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_13f25.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:05。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_13f25.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_13f25.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_13f25.dir\Debug\cmTC_13f25.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_13f25.dir\Debug\cmTC_13f25.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_13f25.dir\Debug\\" /Fd"cmTC_13f25.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_13f25.dir\Debug\\" /Fd"cmTC_13f25.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_13f25.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_13f25.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_13f25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_13f25.lib" /MACHINE:X64  /machine:x64 /debug cmTC_13f25.dir\Debug\CheckSymbolExists.obj
+  cmTC_13f25.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_13f25.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_13f25.dir\Debug\cmTC_13f25.tlog\unsuccessfulbuild”。
+  正在对“cmTC_13f25.dir\Debug\cmTC_13f25.tlog\cmTC_13f25.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_13f25.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_13f25.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_13f25.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:02.29
+
+File E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8cab8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:08。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_8cab8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8cab8.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8cab8.dir\Debug\cmTC_8cab8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8cab8.dir\Debug\cmTC_8cab8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8cab8.dir\Debug\\" /Fd"cmTC_8cab8.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8cab8.dir\Debug\\" /Fd"cmTC_8cab8.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_8cab8.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_8cab8.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_8cab8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_8cab8.lib" /MACHINE:X64  /machine:x64 /debug cmTC_8cab8.dir\Debug\CheckSymbolExists.obj
+  cmTC_8cab8.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_8cab8.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8cab8.dir\Debug\cmTC_8cab8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8cab8.dir\Debug\cmTC_8cab8.tlog\cmTC_8cab8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_8cab8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_8cab8.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_8cab8.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:02.22
+
+File E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b44a9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:11。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_b44a9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b44a9.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b44a9.dir\Debug\cmTC_b44a9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b44a9.dir\Debug\cmTC_b44a9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b44a9.dir\Debug\\" /Fd"cmTC_b44a9.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b44a9.dir\Debug\\" /Fd"cmTC_b44a9.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_b44a9.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_b44a9.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_b44a9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_b44a9.lib" /MACHINE:X64  /machine:x64 /debug cmTC_b44a9.dir\Debug\CheckSymbolExists.obj
+  cmTC_b44a9.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_b44a9.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b44a9.dir\Debug\cmTC_b44a9.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b44a9.dir\Debug\cmTC_b44a9.tlog\cmTC_b44a9.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_b44a9.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_b44a9.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_b44a9.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:02.24
+
+File E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7284e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:20。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7284e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7284e.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7284e.dir\Debug\cmTC_7284e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7284e.dir\Debug\cmTC_7284e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7284e.dir\Debug\\" /Fd"cmTC_7284e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7284e.dir\Debug\\" /Fd"cmTC_7284e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7284e.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_7284e.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_7284e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_7284e.lib" /MACHINE:X64  /machine:x64 /debug cmTC_7284e.dir\Debug\CheckSymbolExists.obj
+  cmTC_7284e.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_7284e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7284e.dir\Debug\cmTC_7284e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7284e.dir\Debug\cmTC_7284e.tlog\cmTC_7284e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7284e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7284e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7284e.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.96
+
+File E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_23c27.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:30。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_23c27.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_23c27.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_23c27.dir\Debug\cmTC_23c27.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_23c27.dir\Debug\cmTC_23c27.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_23c27.dir\Debug\\" /Fd"cmTC_23c27.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_23c27.dir\Debug\\" /Fd"cmTC_23c27.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_23c27.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_23c27.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_23c27.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_23c27.lib" /MACHINE:X64  /machine:x64 /debug cmTC_23c27.dir\Debug\CheckSymbolExists.obj
+  cmTC_23c27.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_23c27.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_23c27.dir\Debug\cmTC_23c27.tlog\unsuccessfulbuild”。
+  正在对“cmTC_23c27.dir\Debug\cmTC_23c27.tlog\cmTC_23c27.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_23c27.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_23c27.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_23c27.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.90
+
+File E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setlocale exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_68434.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:41。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_68434.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_68434.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_68434.dir\Debug\cmTC_68434.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_68434.dir\Debug\cmTC_68434.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_68434.dir\Debug\\" /Fd"cmTC_68434.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_68434.dir\Debug\\" /Fd"cmTC_68434.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_68434.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_68434.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_68434.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_68434.lib" /MACHINE:X64  /machine:x64 /debug cmTC_68434.dir\Debug\CheckSymbolExists.obj
+  cmTC_68434.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_68434.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_68434.dir\Debug\cmTC_68434.tlog\unsuccessfulbuild”。
+  正在对“cmTC_68434.dir\Debug\cmTC_68434.tlog\cmTC_68434.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_68434.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_68434.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_68434.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.91
+
+File E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c50e1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:50。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c50e1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c50e1.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c50e1.dir\Debug\cmTC_c50e1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c50e1.dir\Debug\cmTC_c50e1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c50e1.dir\Debug\\" /Fd"cmTC_c50e1.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c50e1.dir\Debug\\" /Fd"cmTC_c50e1.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c50e1.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_c50e1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_c50e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_c50e1.lib" /MACHINE:X64  /machine:x64 /debug cmTC_c50e1.dir\Debug\CheckSymbolExists.obj
+  cmTC_c50e1.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_c50e1.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c50e1.dir\Debug\cmTC_c50e1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c50e1.dir\Debug\cmTC_c50e1.tlog\cmTC_c50e1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c50e1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c50e1.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c50e1.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.96
+
+File E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <limits.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function inet_pton exists passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_201f0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:53。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_201f0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_201f0.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_201f0.dir\Debug\cmTC_201f0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_201f0.dir\Debug\cmTC_201f0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_201f0.dir\Debug\\" /Fd"cmTC_201f0.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=inet_pton /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_201f0.dir\Debug\\" /Fd"cmTC_201f0.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "D:\ProgramFiles\CMake\share\cmake-3.3\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_201f0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_201f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_201f0.lib" /MACHINE:X64  /machine:x64 /debug cmTC_201f0.dir\Debug\CheckFunctionExists.obj
+  cmTC_201f0.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_201f0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_201f0.dir\Debug\cmTC_201f0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_201f0.dir\Debug\cmTC_201f0.tlog\cmTC_201f0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_201f0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.20
+
+
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_1ad93.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:49:56。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1ad93.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1ad93.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1ad93.dir\Debug\cmTC_1ad93.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1ad93.dir\Debug\cmTC_1ad93.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1ad93.dir\Debug\\" /Fd"cmTC_1ad93.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1ad93.dir\Debug\\" /Fd"cmTC_1ad93.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+e:\gitcode\libcurl_test\src\curl-7.44.0\cmake\curltests.c(322): warning C4700: 使用了未初始化的局部变量“socket” [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1ad93.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_1ad93.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_1ad93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_1ad93.lib" /MACHINE:X64  /machine:x64 /debug cmTC_1ad93.dir\Debug\CurlTests.obj
+  cmTC_1ad93.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_1ad93.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1ad93.dir\Debug\cmTC_1ad93.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1ad93.dir\Debug\cmTC_1ad93.tlog\cmTC_1ad93.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1ad93.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1ad93.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  e:\gitcode\libcurl_test\src\curl-7.44.0\cmake\curltests.c(322): warning C4700: 使用了未初始化的局部变量“socket” [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1ad93.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.61
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3e7dd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:00。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_3e7dd.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3e7dd.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3e7dd.dir\Debug\cmTC_3e7dd.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3e7dd.dir\Debug\cmTC_3e7dd.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3e7dd.dir\Debug\\" /Fd"cmTC_3e7dd.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3e7dd.dir\Debug\\" /Fd"cmTC_3e7dd.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_3e7dd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_3e7dd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_3e7dd.lib" /MACHINE:X64  /machine:x64 /debug cmTC_3e7dd.dir\Debug\CurlTests.obj
+  cmTC_3e7dd.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_3e7dd.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3e7dd.dir\Debug\cmTC_3e7dd.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3e7dd.dir\Debug\cmTC_3e7dd.tlog\cmTC_3e7dd.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_3e7dd.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.57
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7becb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:03。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7becb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7becb.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7becb.dir\Debug\cmTC_7becb.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7becb.dir\Debug\cmTC_7becb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7becb.dir\Debug\\" /Fd"cmTC_7becb.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7becb.dir\Debug\\" /Fd"cmTC_7becb.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_7becb.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_7becb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_7becb.lib" /MACHINE:X64  /machine:x64 /debug cmTC_7becb.dir\Debug\CurlTests.obj
+  cmTC_7becb.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_7becb.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7becb.dir\Debug\cmTC_7becb.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7becb.dir\Debug\cmTC_7becb.tlog\cmTC_7becb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_7becb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.69
+
+Performing Curl Test HAVE_SOCKLEN_T passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2f3e4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:10。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_2f3e4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2f3e4.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2f3e4.dir\Debug\cmTC_2f3e4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2f3e4.dir\Debug\cmTC_2f3e4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2f3e4.dir\Debug\\" /Fd"cmTC_2f3e4.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2f3e4.dir\Debug\\" /Fd"cmTC_2f3e4.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_2f3e4.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_2f3e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_2f3e4.lib" /MACHINE:X64  /machine:x64 /debug cmTC_2f3e4.dir\Debug\CurlTests.obj
+  cmTC_2f3e4.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_2f3e4.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2f3e4.dir\Debug\cmTC_2f3e4.tlog\unsuccessfulbuild”。
+  正在对“cmTC_2f3e4.dir\Debug\cmTC_2f3e4.tlog\cmTC_2f3e4.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_2f3e4.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.05
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c2053.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:13。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c2053.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c2053.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c2053.dir\Debug\cmTC_c2053.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c2053.dir\Debug\cmTC_c2053.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c2053.dir\Debug\\" /Fd"cmTC_c2053.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LIMITS_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDIO_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c2053.dir\Debug\\" /Fd"cmTC_c2053.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "E:\GitCode\Libcurl_Test\src\curl-7.44.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_c2053.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_c2053.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_c2053.lib" /MACHINE:X64  /machine:x64 /debug cmTC_c2053.dir\Debug\CurlTests.obj
+  cmTC_c2053.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_c2053.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c2053.dir\Debug\cmTC_c2053.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c2053.dir\Debug\cmTC_c2053.tlog\cmTC_c2053.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_c2053.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.31
+
+Determining size of socklen_t passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_0c06e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:21。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_0c06e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0c06e.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0c06e.dir\Debug\cmTC_0c06e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0c06e.dir\Debug\cmTC_0c06e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0c06e.dir\Debug\\" /Fd"cmTC_0c06e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_0c06e.dir\Debug\\" /Fd"cmTC_0c06e.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c
+  
+  CURL_SIZEOF_CURL_SOCKLEN_T.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_0c06e.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_0c06e.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_0c06e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_0c06e.lib" /MACHINE:X64  /machine:x64 /debug cmTC_0c06e.dir\Debug\CURL_SIZEOF_CURL_SOCKLEN_T.obj
+  cmTC_0c06e.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_0c06e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0c06e.dir\Debug\cmTC_0c06e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0c06e.dir\Debug\cmTC_0c06e.tlog\cmTC_0c06e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_0c06e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_0c06e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_0c06e.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:02.12
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeded with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_1b0b9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:25。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1b0b9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1b0b9.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1b0b9.dir\Debug\cmTC_1b0b9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1b0b9.dir\Debug\cmTC_1b0b9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_recv /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1b0b9.dir\Debug\\" /Fd"cmTC_1b0b9.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_recv /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1b0b9.dir\Debug\\" /Fd"cmTC_1b0b9.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1b0b9.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_1b0b9.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_1b0b9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_1b0b9.lib" /MACHINE:X64  /machine:x64 /debug cmTC_1b0b9.dir\Debug\src.obj
+  cmTC_1b0b9.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_1b0b9.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1b0b9.dir\Debug\cmTC_1b0b9.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1b0b9.dir\Debug\cmTC_1b0b9.tlog\cmTC_1b0b9.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1b0b9.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1b0b9.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_1b0b9.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:02.02
+
+Source file was:
+#undef inline
+#include <windows.h>
+#include <winsock2.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeded with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_30101.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:27。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_30101.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_30101.dir\Debug\cmTC_30101.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_30101.dir\Debug\cmTC_30101.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_func_recv_test /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_30101.dir\Debug\\" /Fd"cmTC_30101.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_func_recv_test /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_30101.dir\Debug\\" /Fd"cmTC_30101.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 1 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 2 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 3 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4273: “recv”: dll 链接不一致 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1950) : 参见“recv”的前一个定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_30101.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_30101.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_30101.lib" /MACHINE:X64  /machine:x64 /debug cmTC_30101.dir\Debug\src.obj
+  cmTC_30101.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_30101.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_30101.dir\Debug\cmTC_30101.tlog\unsuccessfulbuild”。
+  正在对“cmTC_30101.dir\Debug\cmTC_30101.tlog\cmTC_30101.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 1 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 2 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 3 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4273: “recv”: dll 链接不一致 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_30101.vcxproj]
+
+    5 个警告
+    0 个错误
+
+已用时间 00:00:01.85
+
+Source file was:
+
+                  #undef inline
+#include <windows.h>
+#include <winsock2.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  recv(int, void *, size_t, int);
+                  int main(void) {
+                    int s=0;
+                    void * buf=0;
+                    size_t len=0;
+                    int flags=0;
+                    int res = recv(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test curl_cv_send succeded with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e20e2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:30。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_e20e2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e20e2.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e20e2.dir\Debug\cmTC_e20e2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e20e2.dir\Debug\cmTC_e20e2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_send /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e20e2.dir\Debug\\" /Fd"cmTC_e20e2.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_send /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e20e2.dir\Debug\\" /Fd"cmTC_e20e2.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_e20e2.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_e20e2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_e20e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_e20e2.lib" /MACHINE:X64  /machine:x64 /debug cmTC_e20e2.dir\Debug\src.obj
+  cmTC_e20e2.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_e20e2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e20e2.dir\Debug\cmTC_e20e2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e20e2.dir\Debug\cmTC_e20e2.tlog\cmTC_e20e2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_e20e2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_e20e2.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_e20e2.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.89
+
+Source file was:
+#undef inline
+#include <windows.h>
+#include <winsock2.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeded with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_03b2b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:33。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_03b2b.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_03b2b.dir\Debug\cmTC_03b2b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_03b2b.dir\Debug\cmTC_03b2b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_func_send_test /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_03b2b.dir\Debug\\" /Fd"cmTC_03b2b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D curl_cv_func_send_test /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_03b2b.dir\Debug\\" /Fd"cmTC_03b2b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 1 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 2 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 3 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4273: “send”: dll 链接不一致 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(2025) : 参见“send”的前一个定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_03b2b.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_03b2b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_03b2b.lib" /MACHINE:X64  /machine:x64 /debug cmTC_03b2b.dir\Debug\src.obj
+  cmTC_03b2b.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_03b2b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_03b2b.dir\Debug\cmTC_03b2b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_03b2b.dir\Debug\cmTC_03b2b.tlog\cmTC_03b2b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 1 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 2 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4028: 形参 3 与声明不同 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+  E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c(10): warning C4273: “send”: dll 链接不一致 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_03b2b.vcxproj]
+
+    5 个警告
+    0 个错误
+
+已用时间 00:00:02.03
+
+Source file was:
+
+                  #undef inline
+#include <windows.h>
+#include <winsock2.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  send(int, const void *, size_t, int);
+                  int main(void) {
+                    int s=0;
+                    const void * buf=0;
+                    size_t len=0;
+                    int flags=0;
+                    int res = send(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeded with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_548b0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:38。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_548b0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_548b0.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_548b0.dir\Debug\cmTC_548b0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_548b0.dir\Debug\cmTC_548b0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TIMEVAL /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_548b0.dir\Debug\\" /Fd"cmTC_548b0.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TIMEVAL /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_548b0.dir\Debug\\" /Fd"cmTC_548b0.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_548b0.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_548b0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_548b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_548b0.lib" /MACHINE:X64  /machine:x64 /debug cmTC_548b0.dir\Debug\src.obj
+  cmTC_548b0.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_548b0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_548b0.dir\Debug\cmTC_548b0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_548b0.dir\Debug\cmTC_548b0.tlog\cmTC_548b0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_548b0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_548b0.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_548b0.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.91
+
+Source file was:
+#undef inline
+#include <windows.h>
+#include <winsock2.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of sig_atomic_t passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ca9b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:42。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_ca9b6.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ca9b6.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ca9b6.dir\Debug\cmTC_ca9b6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ca9b6.dir\Debug\cmTC_ca9b6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ca9b6.dir\Debug\\" /Fd"cmTC_ca9b6.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ca9b6.dir\Debug\\" /Fd"cmTC_ca9b6.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c
+  
+  SIZEOF_SIG_ATOMIC_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_ca9b6.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_ca9b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_ca9b6.lib" /MACHINE:X64  /machine:x64 /debug cmTC_ca9b6.dir\Debug\SIZEOF_SIG_ATOMIC_T.obj
+  cmTC_ca9b6.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_ca9b6.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ca9b6.dir\Debug\cmTC_ca9b6.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ca9b6.dir\Debug\cmTC_ca9b6.tlog\cmTC_ca9b6.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_ca9b6.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.36
+
+
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE succeded with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f16d3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:44。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_f16d3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f16d3.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f16d3.dir\Debug\cmTC_f16d3.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f16d3.dir\Debug\cmTC_f16d3.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIG_ATOMIC_T_NOT_VOLATILE /D HAVE_SIGNAL_H /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f16d3.dir\Debug\\" /Fd"cmTC_f16d3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIG_ATOMIC_T_NOT_VOLATILE /D HAVE_SIGNAL_H /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f16d3.dir\Debug\\" /Fd"cmTC_f16d3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_f16d3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_f16d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_f16d3.lib" /MACHINE:X64  /machine:x64 /debug cmTC_f16d3.dir\Debug\src.obj
+  cmTC_f16d3.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_f16d3.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f16d3.dir\Debug\cmTC_f16d3.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f16d3.dir\Debug\cmTC_f16d3.tlog\cmTC_f16d3.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_f16d3.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+Source file was:
+
+    #ifdef HAVE_SIGNAL_H
+    #  include <signal.h>
+    #endif
+    int main(void) {
+      static volatile sig_atomic_t dummy = 0;
+      (void)dummy;
+      return 0;
+    }
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_47f7b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.30501.0
+[Microsoft .NET Framework 版本 4.0.30319.18444]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/3/14 9:50:46。
+节点 1 上的项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_47f7b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_47f7b.dir\Debug\”。
+  正在创建目录“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_47f7b.dir\Debug\cmTC_47f7b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_47f7b.dir\Debug\cmTC_47f7b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_47f7b.dir\Debug\\" /Fd"cmTC_47f7b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 18.00.30501 版
+  版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /I"D:\ProgramFiles\Visual Leak Detector\include" /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _DEBUG /D _WINSOCKAPI_ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_47f7b.dir\Debug\\" /Fd"cmTC_47f7b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+  
+  SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_47f7b.vcxproj]
+          命令行参数: 参见前面的“_WINSOCKAPI_”定义
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_47f7b.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\ProgramFiles\Visual Leak Detector\lib\Win64" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_47f7b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/CMakeTmp/Debug/cmTC_47f7b.lib" /MACHINE:X64  /machine:x64 /debug cmTC_47f7b.dir\Debug\SIZEOF_STRUCT_SOCKADDR_STORAGE.obj
+  cmTC_47f7b.vcxproj -> E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\Debug\cmTC_47f7b.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_47f7b.dir\Debug\cmTC_47f7b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_47f7b.dir\Debug\cmTC_47f7b.tlog\cmTC_47f7b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_47f7b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_47f7b.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(17): warning C4005: “_WINSOCKAPI_”: 宏重定义 [E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\CMakeTmp\cmTC_47f7b.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.95
+
+

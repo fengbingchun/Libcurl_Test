@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{991F5273-941B-4153-B953-2A458380686D}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>curl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">curl.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">curl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">curl.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">curl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">curl.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">curl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">curl.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">curl</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Debug\libcurl_imp.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/GitCode/Libcurl_Test/src/vs2013/src/Debug/curl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/GitCode/Libcurl_Test/src/vs2013/src/Debug/curl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Release\libcurl_imp.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/GitCode/Libcurl_Test/src/vs2013/src/Release/curl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/GitCode/Libcurl_Test/src/vs2013/src/Release/curl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\MinSizeRel\libcurl_imp.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/GitCode/Libcurl_Test/src/vs2013/src/MinSizeRel/curl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/GitCode/Libcurl_Test/src/vs2013/src/MinSizeRel/curl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\GitCode\Libcurl_Test\src\vs2013\include\curl;E:\GitCode\Libcurl_Test\src\curl-7.44.0\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib;E:\GitCode\Libcurl_Test\src\vs2013\lib;E:\GitCode\Libcurl_Test\src\vs2013\include;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\RelWithDebInfo\libcurl_imp.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/GitCode/Libcurl_Test/src/vs2013/src/RelWithDebInfo/curl.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/GitCode/Libcurl_Test/src/vs2013/src/RelWithDebInfo/curl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -HE:/GitCode/Libcurl_Test/src/curl-7.44.0 -BE:/GitCode/Libcurl_Test/src/vs2013 --check-stamp-file E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;E:\GitCode\Libcurl_Test\src\vs2013\src\Makefile.inc.cmake;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -HE:/GitCode/Libcurl_Test/src/curl-7.44.0 -BE:/GitCode/Libcurl_Test/src/vs2013 --check-stamp-file E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;E:\GitCode\Libcurl_Test\src\vs2013\src\Makefile.inc.cmake;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -HE:/GitCode/Libcurl_Test/src/curl-7.44.0 -BE:/GitCode/Libcurl_Test/src/vs2013 --check-stamp-file E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;E:\GitCode\Libcurl_Test\src\vs2013\src\Makefile.inc.cmake;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -HE:/GitCode/Libcurl_Test/src/curl-7.44.0 -BE:/GitCode/Libcurl_Test/src/vs2013 --check-stamp-file E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/GitCode/Libcurl_Test/src/curl-7.44.0/src/CMakeLists.txt;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;E:\GitCode\Libcurl_Test\src\vs2013\src\Makefile.inc.cmake;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\5340d8e6a27c6eb924e6213a8886273a\tool_hugehelp.c.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating tool_hugehelp.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "/* built-in manual is disabled, blank function */" &gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "#include \"tool_hugehelp.h\"" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "void hugehelp(void) {}" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/5340d8e6a27c6eb924e6213a8886273a/tool_hugehelp.c.rule;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_hugehelp.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\tool_hugehelp.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating tool_hugehelp.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "/* built-in manual is disabled, blank function */" &gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "#include \"tool_hugehelp.h\"" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "void hugehelp(void) {}" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/5340d8e6a27c6eb924e6213a8886273a/tool_hugehelp.c.rule;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_hugehelp.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\tool_hugehelp.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating tool_hugehelp.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "/* built-in manual is disabled, blank function */" &gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "#include \"tool_hugehelp.h\"" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "void hugehelp(void) {}" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/5340d8e6a27c6eb924e6213a8886273a/tool_hugehelp.c.rule;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_hugehelp.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\tool_hugehelp.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating tool_hugehelp.c</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "/* built-in manual is disabled, blank function */" &gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "#include \"tool_hugehelp.h\"" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+D:\ProgramFiles\CMake\bin\cmake.exe -E echo "void hugehelp(void) {}" &gt;&gt; tool_hugehelp.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/GitCode/Libcurl_Test/src/vs2013/CMakeFiles/5340d8e6a27c6eb924e6213a8886273a/tool_hugehelp.c.rule;E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_hugehelp.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\GitCode\Libcurl_Test\src\vs2013\src\tool_hugehelp.c</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_binmode.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_bname.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_dbg.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_hdr.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_prg.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_rea.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_see.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_wrt.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cfgable.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_convert.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_dirhie.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_doswin.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_easysrc.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_formparse.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_getparam.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_getpass.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_help.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_helpers.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_homedir.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_hugehelp.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_libinfo.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_main.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_metalink.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_mfiles.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_msgs.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_operate.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_operhlp.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_panykey.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_paramhlp.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_parsecfg.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_sdecls.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_setopt.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_setup.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_sleep.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_strdup.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_urlglob.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_util.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_version.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_vms.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_writeenv.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_writeout.h" />
+    <ClInclude Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_xattr.h" />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_binmode.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_bname.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_dbg.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_hdr.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_prg.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_rea.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_see.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cb_wrt.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_cfgable.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_convert.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_dirhie.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_doswin.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_easysrc.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_formparse.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_getparam.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_getpass.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_help.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_helpers.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_homedir.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\vs2013\src\tool_hugehelp.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_libinfo.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_main.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_metalink.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_mfiles.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_msgs.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_operate.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_operhlp.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_panykey.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_paramhlp.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_parsecfg.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_strdup.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_setopt.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_sleep.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_urlglob.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_util.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_vms.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_writeenv.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_writeout.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\src\tool_xattr.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib\strtoofft.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib\rawstr.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib\nonblock.c"  />
+    <ClCompile Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\lib\warnless.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/GitCode/Libcurl_Test/src/vs2013/ZERO_CHECK.vcxproj">
+      <Project>1199AE89-03BE-46BD-B85E-2004CBA101B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="E:/GitCode/Libcurl_Test/src/vs2013/lib/libcurl.vcxproj">
+      <Project>B13918FA-A2F5-4D35-8E01-C426B5308A33</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

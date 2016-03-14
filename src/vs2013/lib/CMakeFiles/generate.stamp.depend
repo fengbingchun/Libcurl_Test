@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/GitCode/Libcurl_Test/src/curl-7.44.0/lib/CMakeLists.txt
+E:/GitCode/Libcurl_Test/src/curl-7.44.0/include/curl/curlbuild.h.cmake
+E:/GitCode/Libcurl_Test/src/curl-7.44.0/lib/curl_config.h.cmake
+E:/GitCode/Libcurl_Test/src/vs2013/lib/Makefile.inc.cmake

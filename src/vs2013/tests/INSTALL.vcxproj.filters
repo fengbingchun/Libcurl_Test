@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\6f7493f88408b65b81ec2fc49f44749f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EE7F18FC-6397-4C53-AF09-402D0AD8003C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

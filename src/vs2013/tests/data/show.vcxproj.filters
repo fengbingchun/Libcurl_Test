@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\GitCode\Libcurl_Test\src\curl-7.44.0\tests\data\CMakeLists.txt" />
+    <CustomBuild Include="E:\GitCode\Libcurl_Test\src\vs2013\CMakeFiles\62a754069124ad3212332a6b6b9b6ebf\show.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\GitCode\Libcurl_Test\src\vs2013\tests\data\CMakeFiles\show" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EE7F18FC-6397-4C53-AF09-402D0AD8003C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
