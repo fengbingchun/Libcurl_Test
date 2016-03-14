@@ -21,7 +21,7 @@
 #
 ###########################################################################
 
-prefix=C:/Program Files/CURL
+prefix=E:/GitCode/Libcurl_Test/src
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -142,8 +142,8 @@ while test $# -gt 0; do
         ;;
 
     --libs)
-        if test "XC:/Program Files/CURL/lib" != "X/usr/lib" -a "XC:/Program Files/CURL/lib" != "X/usr/lib64"; then
-           CURLLIBDIR="-LC:/Program Files/CURL/lib "
+        if test "XE:/GitCode/Libcurl_Test/src/lib" != "X/usr/lib" -a "XE:/GitCode/Libcurl_Test/src/lib" != "X/usr/lib64"; then
+           CURLLIBDIR="-LE:/GitCode/Libcurl_Test/src/lib "
         else
            CURLLIBDIR=""
         fi
@@ -156,7 +156,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xno" != "Xno" ; then
-          echo C:/Program Files/CURL/lib/libcurl.lib  /machine:x64  -lwinmm -lws2_32
+          echo E:/GitCode/Libcurl_Test/src/lib/libcurl.lib  /machine:x64  -lwinmm -lws2_32
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1

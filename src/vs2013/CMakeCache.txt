@@ -66,7 +66,7 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files/CURL
+CMAKE_INSTALL_PREFIX:PATH=E:/GitCode/Libcurl_Test/src
 
 //Name or full path to lber library
 CMAKE_LBER_LIB:STRING=lber
@@ -121,10 +121,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
+CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=NO
+CMAKE_SKIP_RPATH:BOOL=OFF
 
 //Flags used by the linker during the creation of static libraries.
 CMAKE_STATIC_LINKER_FLAGS:STRING=
@@ -161,7 +161,7 @@ CMAKE_USE_RELATIVE_PATHS:BOOL=OFF
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
 
 //Value Computed by CMake
 CURL_BINARY_DIR:STATIC=E:/GitCode/Libcurl_Test/src/vs2013
@@ -190,8 +190,10 @@ CURL_DISABLE_HTTP:BOOL=OFF
 //to disable IMAP
 CURL_DISABLE_IMAP:BOOL=OFF
 
+//disables LDAP
 CURL_DISABLE_LDAP:BOOL=ON
 
+//to disable LDAPS
 CURL_DISABLE_LDAPS:BOOL=ON
 
 //to disable POP3
